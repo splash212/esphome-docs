@@ -30,7 +30,7 @@ The required connection wires are ``+VCC``, ``GND``, ``RX`` and ``TX``.
 
     # Example configuration entry
     uart:
-      baud_rate: 9600
+      baud_rate: 115200 #9600 ( change it if you are getting error on log)
       tx_pin: TX
       rx_pin: RX
 
